@@ -1,0 +1,18 @@
+type Query {
+    libros: [Libro!]!
+    libro(id: ID!): Libro
+  }
+  
+  type Libro {
+    id: ID!
+    isbn: Int!
+    author: String!
+    titulo: String!
+  }
+
+  query {
+    libros {
+      id
+      titulo
+    }
+  }
