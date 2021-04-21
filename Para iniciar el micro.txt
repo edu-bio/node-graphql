@@ -1,0 +1,2 @@
+Poner en el terminal (dentro del directorio del proyecto)
+node index.js
